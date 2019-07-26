@@ -1,0 +1,16 @@
+body {
+    background-color: #3c6382;
+}
+
+#page {
+    background-color: #dfe4ea;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#quote {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
