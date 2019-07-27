@@ -1,16 +1,32 @@
 body {
     background-color: #3c6382;
+    font-family: 'Lora', serif;
 }
 
 #page {
     background-color: #dfe4ea;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.664);
+    box-sizing: border-box;
+    width: 50%;
+    border: solid #304e66 10px;
 }
 
 #quote {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    background-size: 100% 100%;
+    background: no-repeat center;
+    color: #2f3542;
+}
+
+#p0 {
+    font-size: 30px;
+}
+
+#p4 {
+    text-align: right;
 }

@@ -1,18 +1,21 @@
-//importation des librairies
+/*fichier gérant le serveur web :
+initialisation du serveur, définition des routes, et lancement du serveur.*/
+
+//importation des modules.
 const express = require('express');
 
-//initialisation du serveur
+//initialisation du serveur.
 var server = express();
 
-//configuration routes
+//configuration des routes.
 server.get('/', function(req, res) {
     res.render('quote.ejs');
 });
 
-//accès aux fichiers des dossiers js et css
+//donne accès aux fichiers des dossiers js et css.
 server.use(express.static('js'), express.static('css'));
 
-//démarre le serveur et affiche un message côté serveur. le serveur écoute sur le port 8080
+//démarre le serveur sur le port 8080 et affiche un message côté serveur.
 server.listen(8080, function() {
     console.log('Server is launched on port 8080');
 });
