@@ -29,8 +29,8 @@ API utilisée :
 
 Lancer le serveur:
 	
-	- Accéder au dossier "serveur_web".
+	- Accéder au dossier "serveur_web" avec la commande "cd serveur_web".
 	
 	- Lancer la commande "node js/server.js".
 	
-	- Pour accèder à la page web dynamique taper "localhost:8080" dans votre navigateur.
+	- Pour accéder à la page web dynamique taper "localhost:8080" dans votre navigateur.
