@@ -9,7 +9,7 @@ Objectif du projet :
 
 	- Mise en place d'une page Web qui affiche dynamiquement une citation (appel REST avec Axios).
 
-Temps donnée : 1 semaine
+Temps donné : 1 semaine
 
 Langages utilisés :
 
